@@ -52,7 +52,7 @@ h1, h2, h3, h4, h5, h6 {
 #top-nav { 
 	margin-top:10px;
 	margin-left:-10px; 
-	width:370px; 
+	width:500px; 
 	height:25px;
     padding:5px;
 	background:#8896AB;
@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #top-nav ul li { 
 	margin:0; 
-	padding:0 0 0 7px; 
+	padding:0 0 0 3px; 
 	float:left;
 }
 #top-nav ul li a { 
