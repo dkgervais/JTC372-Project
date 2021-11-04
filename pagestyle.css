@@ -74,16 +74,14 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer */
 #footer { 
 	margin:0 auto; 
-	width:970px;
-	height:25px; 
-	padding:10px;
+	width:970px; 
+	height:25px;
+    padding:5px;
 	background:#DAE9BC;
 	border-bottom-right-radius:15px;
 	border-bottom-left-radius:15px;
-}
-#footer-text {
 	text-align:center; 
-	vertical-align: super;
+	line-height:5px;
 }
 		
 /* Clear both sides to assist with div alignment  */
