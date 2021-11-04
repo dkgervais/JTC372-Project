@@ -41,20 +41,21 @@ h1, h2, h3, h4, h5, h6 {
 	margin:auto;
 	padding:10px;
 	width:970px;
-	background:green; 
+	background:#274060; 
 }
 .feature-inner h1 {
-	color:#DAE9BC;
+	color:#C5D5E4;
 	font-size:32px;
 }
 			
 /* Menu */
 #top-nav { 
-	margin:0 auto; 
+	margin-top:10px;
+	margin-left:-10px; 
 	width:370px; 
 	height:25px;
     padding:5px;
-	background:#DAE9BC;
+	background:#8896AB;
 	border-bottom-right-radius:15px;
 	border-bottom-left-radius:15px;
 	text-align:center; 
@@ -65,6 +66,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* List style for menu */
 #top-nav ul { 
+	margin-top:5px;
 	list-style:none; 
 	padding:0; 
 	height:37px; 
@@ -79,11 +81,48 @@ h1, h2, h3, h4, h5, h6 {
 	display:block; 
 	margin:0; 
 	padding:8px 20px; 
-	color:green; 
+	color:#274060; 
 	text-decoration:none;
 }
 #top-nav ul li.active a, #top-nav ul li a:hover { 
-	color:#BCCE98;
+	color:#EEE;
+}
+
+/* Social button menu */
+#social-nav { 
+	margin-top:10px;
+	margin-left:-10px; 
+	width:370px; 
+	height:25px;
+    padding:5px;
+	background:#8896AB;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	text-align:center; 
+	line-height: 0px;
+	font-size:15px;
+	font-weight:bold;
+	float:left;
+}
+/* List style for social buttons */
+#social-nav ul { 
+	margin-top:5px;
+	list-style:none; 
+	padding:0; 
+	height:37px; 
+	float:center;
+}
+#social-nav ul li { 
+	margin:0; 
+	padding:0 0 0 7px; 
+	float:left;
+}
+#social-nav ul li a { 
+	display:block; 
+	margin:0; 
+	padding:8px 20px; 
+	color:#274060; 
+	text-decoration:none;
 }
 
 /* Content */
@@ -105,10 +144,11 @@ h1, h2, h3, h4, h5, h6 {
 	width:980px; 
 	height:25px;
     padding:5px;
-	background:#DAE9BC;
+	background:#8896AB;
 	border-bottom-right-radius:15px;
 	border-bottom-left-radius:15px;
-	text-align:center; 
+	text-align:center;
+	color:#EEE; 
 	line-height:5px;
 }
 
