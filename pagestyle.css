@@ -73,16 +73,15 @@ h1, h2, h3, h4, h5, h6 {
 	
 /* Footer */
 #footer { 
-	background:#eee;
-	color:green;
-}
-#footer-inner { 
 	margin:0 auto; 
 	width:970px; 
 	padding:10px;
 	background:#DAE9BC;
 	border-bottom-right-radius:15px;
 	border-bottom-left-radius:15px;
+}
+#footer-inner { 
+	
 }
 #footer-text {
 	text-align:center; 
