@@ -40,8 +40,8 @@ h1, h2, h3, h4, h5, h6 {color:darkgreen;}
 	
 /* Footerblurb */
 #footerblurb { background:#eee;color:green;}
-#footerblurb-inner { margin:0 auto; width:970px; padding:10px;background:#DAE9BC;border-bottom-right-radius:15px;border-bottom-left-radius:15px;}
-#footerblurb .column { margin:0; text-align:justify; float:left;width:250px;padding:0 24px;}
+#footerblurb-inner { margin:0 auto; width:970px; text-align:center; padding:10px;background:#DAE9BC;border-bottom-right-radius:15px;border-bottom-left-radius:15px;}
+
 
 /* Footer */
 #footer { background:#eee;}
