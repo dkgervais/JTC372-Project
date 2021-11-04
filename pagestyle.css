@@ -92,9 +92,8 @@ h1, h2, h3, h4, h5, h6 {
 #social-nav { 
 	margin-top:10px;
 	margin-right:-10px; 
-	width:150px; 
-	height:25px;
-    padding:5px;
+	height:35px;
+	padding:5px;
 	background:#8896AB;
 	border-bottom-right-radius:15px;
 	border-bottom-left-radius:15px;
@@ -106,15 +105,16 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* List style for social buttons */
 #social-nav ul { 
-	margin-top:5px;
+	margin-top:2px;
 	list-style:none; 
-	padding:0; 
+	padding-left:0px;
+	padding-right:10px;
 	height:37px; 
 	float:center;
 }
 #social-nav ul li { 
 	margin:0; 
-	padding:0 0 0 10px; 
+	padding:0 0 0 15px; 
 	float:right;
 }
 #social-nav ul li a { 
