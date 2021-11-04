@@ -42,10 +42,13 @@ h1, h2, h3, h4, h5, h6 {
 	padding:10px;
 	width:970px;
 	background:#274060; 
+	border-top-right-radius:15px;
+	border-top-left-radius:15px;
 }
 .feature-inner h1 {
 	color:#EEE;
 	font-size:32px;
+	margin-left: 15px;
 }
 			
 /* Menu */
@@ -93,6 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin-top:10px;
 	margin-right:-10px; 
 	height:35px;
+	width:80px;
 	padding:5px;
 	background:#8896AB;
 	border-bottom-right-radius:15px;
