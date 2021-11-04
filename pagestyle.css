@@ -44,7 +44,7 @@ h1, h2, h3, h4, h5, h6 {
 	background:#274060; 
 }
 .feature-inner h1 {
-	color:#C5D5E4;
+	color:#EEE;
 	font-size:32px;
 }
 			
@@ -144,11 +144,11 @@ h1, h2, h3, h4, h5, h6 {
 	width:980px; 
 	height:25px;
     padding:5px;
-	background:#8896AB;
+	background:#C5D5E4;
 	border-bottom-right-radius:15px;
 	border-bottom-left-radius:15px;
 	text-align:center;
-	color:#EEE; 
+	color:#8896AB; 
 	line-height:5px;
 }
 
