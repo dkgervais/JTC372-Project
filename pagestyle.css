@@ -25,14 +25,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* Header */
-#header { 
+#header-blankspace { 
 	background:#eee; 
-}
-#header-inner { 
 	margin:0 auto; 
 	padding:10px; 
 	width:970px;
-	background:#fff;
 }
 			
 /* Feature */
@@ -52,12 +49,43 @@ h1, h2, h3, h4, h5, h6 {
 }
 			
 /* Menu */
-#top-nav { margin:0 auto; padding:0px 0 0; height:37px; float:right;}
-#top-nav ul { list-style:none; padding:0; height:37px; float:left;}
-#top-nav ul li { margin:0; padding:0 0 0 8px; float:left;}
-#top-nav ul li a { display:block; margin:0; padding:8px 20px; color:green; text-decoration:none;}
-#top-nav ul li.active a, #top-nav ul li a:hover { color:#BCCE98;}
-			
+#top-nav { 
+	margin:0 auto; 
+	width:370px; 
+	height:25px;
+    padding:5px;
+	background:#DAE9BC;
+	border-bottom-right-radius:15px;
+	border-bottom-left-radius:15px;
+	text-align:center; 
+	line-height: 0px;
+	font-size:15px;
+	font-weight:bold;
+	float:left;
+}
+/* List style for menu */
+#top-nav ul { 
+	list-style:none; 
+	padding:0; 
+	height:37px; 
+	float:center;
+}
+#top-nav ul li { 
+	margin:0; 
+	padding:0 0 0 7px; 
+	float:left;
+}
+#top-nav ul li a { 
+	display:block; 
+	margin:0; 
+	padding:8px 20px; 
+	color:green; 
+	text-decoration:none;
+}
+#top-nav ul li.active a, #top-nav ul li a:hover { 
+	color:#BCCE98;
+}
+
 /* Content */
 #content-inner { margin:0 auto; padding:10px; width:970px;background:#fff;}
 #content #contentbar { margin:0; padding:0; float:right; width:760px;}
@@ -74,7 +102,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Footer */
 #footer { 
 	margin:0 auto; 
-	width:970px; 
+	width:980px; 
 	height:25px;
     padding:5px;
 	background:#DAE9BC;
@@ -82,6 +110,14 @@ h1, h2, h3, h4, h5, h6 {
 	border-bottom-left-radius:15px;
 	text-align:center; 
 	line-height:5px;
+}
+
+/* Footer blankspace */
+#footer-blankspace { 
+	background:#eee; 
+	margin:0 auto; 
+	padding:10px; 
+	width:970px;
 }
 		
 /* Clear both sides to assist with div alignment  */
