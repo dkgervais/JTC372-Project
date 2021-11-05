@@ -12,10 +12,12 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
 	color:#274060;
+	font-family:"Segoe UI";
 }
 
 #page { 
 	background:#eee;
+	font-family:"Segoe UI";
 }
 
 #header, #footer, #body, #top-nav, #social-nav, #content, #content #contentbar, #content #sidebar { 
