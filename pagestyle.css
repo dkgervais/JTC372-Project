@@ -29,6 +29,7 @@ h1, h2, h3, h4, h5, h6 {
 /* Header */
 #header-blankspace { 
 	background:#e7e7e7; 
+	height: 15vh;
 	margin:0 auto; 
 	padding:10px; 
 	width:970px;
@@ -148,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 	margin:0 auto; 
 	width:980px; 
 	height:50px;
-    padding:5px;
+    	padding:5px;
 	background:#C5D5E4;
 	border-bottom-right-radius:15px;
 	border-bottom-left-radius:15px;
@@ -159,6 +160,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #footer-blankspace { 
 	background:#e7e7e7; 
+	height: 25vh;
 	margin:0 auto; 
 	padding:10px; 
 	width:970px;
