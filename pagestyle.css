@@ -176,7 +176,10 @@ h1, h2, h3, h4, h5, h6 {
 .clr { clear:both; padding:0; margin:0; width:100%; font-size:0px; line-height:0px;}
 
 /* Center div */
-.center { float:center; }
+.center { 
+	text-align:center; 
+	text-indent: 60px
+}
 
 /* Special index page introduction header */
 #intro-header {
