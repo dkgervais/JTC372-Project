@@ -177,3 +177,13 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Center div */
 .center { float:center; }
+
+/* Special index page introduction header */
+#intro-header {
+	font-size: 40px;
+	color:#274060;
+	font-family:"Segoe UI";
+	font-weight:bold;
+	padding-left: 25px;
+
+}
